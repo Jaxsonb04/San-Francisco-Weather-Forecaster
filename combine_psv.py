@@ -2,8 +2,11 @@
 # combines all psv files into a single clean csv.
 # resamples sub-hourly observations to hourly, converts units.
 
-# python combine_psv.py --dir "2016-2026 weather data" --out combined_weather.csv
+# make sure to run this in venv to get the actual combined_weather.csv file.
 
+"""
+python combine_psv.py --dir "2016-2026 weather data" --out combined_weather.csv
+"""
 import argparse
 import glob
 import sys

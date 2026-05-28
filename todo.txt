@@ -1,0 +1,45 @@
+now we sucessfully created the website on github. 
+
+
+Next step would be display probability of the heighest temperature tmr
+
+example probability estimates (lstm)
+  using mean test prediction: 63.7F
+    P(actual >  58.7F) = 89.5%
+    P(actual >  63.7F) = 60.4%
+    P(actual >  68.7F) = 23.3%
+    P(actual >  73.7F) = 4.3%
+
+instead of a fix number, I want user to input the number that they want 
+
+
+and the model could base on the current date and pattern and give out the 
+
+highest temperature tmr
+
+
+for instance today may 28. create a predict tmr button and when user 
+
+press on that i will display the following:
+
+today may 28 tmr may 29
+
+P(estimate >  58.7F) = 89.5%
+P(estimate >  63.7F) = 60.4%
+P(estimate >  68.7F) = 23.3%
+P(estimate >  73.7F) = 4.3%
+
+
+ajie task:
+
+create a button. Add it to github.io. 
+
+https://jaxsonb04.github.io/San-Francisco-Weather-Forecaster/
+
+
+it does not have to work as intended but when you press it can display a 
+
+fake probability table. 
+
+but it has to know the current date and the date we are predicting which is tmr
+
